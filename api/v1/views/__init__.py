@@ -1,5 +1,5 @@
 from flask import Blueprint
-"""This is a __init__ file"""
+"""This is a __init__ file to initialize import"""
 
 
 app_views = Blueprint('app_views', __name__, url_prefix='/api/v1')

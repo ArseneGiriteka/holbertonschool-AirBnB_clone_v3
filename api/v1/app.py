@@ -3,7 +3,7 @@ from models import storage
 from api.v1.views import app_views
 import os
 
-"""This new app module"""
+"""This new app module to manage application"""
 
 
 app = Flask(__name__)

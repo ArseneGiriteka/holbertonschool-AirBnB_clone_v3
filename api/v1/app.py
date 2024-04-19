@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-from flask import Flask
-from models import storage
-from api.v1.views import app_views
-import os
-
 """
 This new app module to manage application
 this module will create a Flask app called app
 This module will define @app.teardown_appcontext
 by close_app methode
-and will register to app_views blueprint"""
+and will register to app_views blueprint
+"""
+from api.v1.views import app_views
+from flask import Flask
+from models import storage
+import os
+
 
 
 app = Flask(__name__)

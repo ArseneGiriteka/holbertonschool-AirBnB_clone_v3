@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-from api.v1.views import app_views
-from flask import jsonify
 """
 index file that defines routes
 this will import app_views
@@ -8,6 +6,10 @@ this will import jsonify to jsonify the return dictionary
 this will define /status route
 this will add new  method app_view_ok
 """
+
+
+from api.v1.views import app_views
+from flask import jsonify
 
 
 @app_views.route('/status')

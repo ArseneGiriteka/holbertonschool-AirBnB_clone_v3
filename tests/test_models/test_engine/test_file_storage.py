@@ -66,7 +66,7 @@ test_file_storage.py'])
                              "{:s} method needs a docstring".format(func[0]))
             self.assertTrue(len(func[1].__doc__) >= 1,
                             "{:s} method needs a docstring".format(func[0]))
-    
+
     def test_get(self):
         """Test the get method."""
         obj = self.storage.get('MyClass', '123')

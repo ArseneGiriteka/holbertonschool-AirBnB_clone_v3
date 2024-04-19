@@ -18,5 +18,6 @@ def app_view_ok():
     app_view_ok method defines the /status route
     this methode is called app_view and will return a
     json text formated
-    it will always return {"status": "Ok"}"""
+    it will always return {"status": "Ok"}
+    """
     return jsonify({"status": "Ok"})

@@ -5,7 +5,7 @@ from flask import jsonify
 index file that defines routes
 this will import app_views
 this will import jsonify to jsonify the return dictionary
-this will define /status route 
+this will define /status route
 this will add new  method app_view_ok
 """
 
